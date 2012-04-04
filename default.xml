@@ -2,11 +2,24 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
+  <remote  name="github"
+           fetch="https://github.com/" />
   <default revision="refs/tags/android-2.3.6_r1"
            remote="aosp"
            sync-j="4" />
 
+ <project path="device/renesas/emev" 
+    name="ffxx68/Renesas-device_emev.git"
+    remote="github"
+    revision="MyPad" />
+
+ <project path="frameworks/base"
+    name="ffxx68/Renesas-frameworks_base.git"
+    remote="github"
+    revision="MyPad" />
+    
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -109,7 +122,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
