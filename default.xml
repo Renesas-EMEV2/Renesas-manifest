@@ -15,14 +15,23 @@
     remote="github"
     revision="MyPad" />
 
+ <project path="hardware/renesas/emev" 
+    name="ffxx68/Renesas-hardware_emev.git"
+    remote="github"
+    revision="MyPad" />
+
  <project path="frameworks/base"
     name="ffxx68/Renesas-frameworks_base.git"
     remote="github"
     revision="MyPad" />
-    
-  <project path="build" name="platform/build">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+
+ <project path="build"
+    name="ffxx68/Renesas-build.git"
+    remote="github"
+    revision="MyPad">
+  <copyfile src="core/root.mk" dest="Makefile" />
+ </project>
+
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
