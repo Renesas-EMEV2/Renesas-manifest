@@ -25,14 +25,18 @@
     remote="github"
     revision="MyPad" />
 
+ <project path="bionic" 
+   name="platform/bionic" 
+   remote="github"
+   revision="MyPad" />
+
  <project path="build"
     name="ffxx68/Renesas-build.git"
     remote="github"
     revision="MyPad">
   <copyfile src="core/root.mk" dest="Makefile" />
  </project>
-
-  <project path="bionic" name="platform/bionic" />
+ 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
