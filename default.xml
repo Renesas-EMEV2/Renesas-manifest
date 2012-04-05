@@ -26,7 +26,7 @@
     revision="MyPad" />
 
  <project path="bionic" 
-   name="platform/bionic" 
+   name="ffxx68/Renesas-bionic" 
    remote="github"
    revision="MyPad" />
 
