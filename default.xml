@@ -30,6 +30,16 @@
    remote="github"
    revision="MyPad" />
 
+ <project path="system/core" 
+   name="ffxx68/Renesas-system_core" 
+   remote="github"
+   revision="MyPad" />
+
+ <project path="system/vold" 
+   name="ffxx68/Renesas-system_vold" 
+   remote="github"
+   revision="MyPad" />
+
  <project path="build"
     name="ffxx68/Renesas-build.git"
     remote="github"
@@ -199,11 +209,9 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
 </manifest>
