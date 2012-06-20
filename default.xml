@@ -19,6 +19,11 @@
     name="ffxx68/Renesas-hardware_emev.git"
     remote="github"
     revision="MyPad" />
+    
+ <project path="hardware/libhardware" 
+    name="ffxx68/Renesas-hardware_libhardware.git"
+    remote="github"
+    revision="MyPad" />
 
  <project path="frameworks/base"
     name="ffxx68/Renesas-frameworks_base.git"
