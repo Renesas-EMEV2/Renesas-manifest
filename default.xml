@@ -25,6 +25,11 @@
     remote="github"
     revision="MyPad" />
 
+<project path="hardware/libhardware" 
+    name="ffxx68/Renesas-libhardware_legacy.git"
+    remote="github"
+    revision="MyPad" />
+
  <project path="frameworks/base"
     name="ffxx68/Renesas-frameworks_base.git"
     remote="github"
@@ -153,7 +158,6 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
