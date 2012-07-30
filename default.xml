@@ -11,47 +11,47 @@
            sync-j="4" />
 
  <project path="device/renesas/emev" 
-    name="ffxx68/Renesas-device_emev.git"
+    name="Renesas-EMEV2/Renesas-device_emev.git"
     remote="github"
     revision="MyPad" />
 
  <project path="hardware/renesas/emev" 
-    name="ffxx68/Renesas-hardware_emev.git"
+    name="Renesas-EMEV2/Renesas-hardware_emev.git"
     remote="github"
     revision="MyPad" />
     
  <project path="hardware/libhardware" 
-    name="ffxx68/Renesas-hardware_libhardware.git"
+    name="Renesas-EMEV2/Renesas-hardware_libhardware.git"
     remote="github"
     revision="MyPad" />
 
 <project path="hardware/libhardware" 
-    name="ffxx68/Renesas-libhardware_legacy.git"
+    name="Renesas-EMEV2/Renesas-libhardware_legacy.git"
     remote="github"
     revision="MyPad" />
 
  <project path="frameworks/base"
-    name="ffxx68/Renesas-frameworks_base.git"
+    name="Renesas-EMEV2/Renesas-frameworks_base.git"
     remote="github"
     revision="MyPad" />
 
  <project path="bionic" 
-   name="ffxx68/Renesas-bionic" 
+   name="Renesas-EMEV2/Renesas-bionic" 
    remote="github"
    revision="MyPad" />
 
  <project path="system/core" 
-   name="ffxx68/Renesas-system_core" 
+   name="Renesas-EMEV2/Renesas-system_core" 
    remote="github"
    revision="MyPad" />
 
  <project path="system/vold" 
-   name="ffxx68/Renesas-system_vold" 
+   name="Renesas-EMEV2/Renesas-system_vold" 
    remote="github"
    revision="MyPad" />
 
  <project path="build"
-    name="ffxx68/Renesas-build.git"
+    name="Renesas-EMEV2/Renesas-build.git"
     remote="github"
     revision="MyPad">
   <copyfile src="core/root.mk" dest="Makefile" />
