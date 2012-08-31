@@ -2,18 +2,17 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
-           review="https://android-review.googlesource.com/" />
+	   fetch="git://github.com/android/" />
   <remote  name="github"
            fetch="https://github.com/" />
-  <default revision="refs/tags/android-2.3.6_r1"
+  <default revision="refs/tags/android-4.1.1_r4"
            remote="aosp"
            sync-j="4" />
 
  <project path="device/renesas/emev" 
     name="ffxx68/Renesas-device_emev.git"
     remote="github"
-    revision="MyPad" />
+    revision="emev-4.1.1_r4" />
 
  <project path="hardware/renesas/emev" 
     name="ffxx68/Renesas-hardware_emev.git"
