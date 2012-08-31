@@ -56,13 +56,10 @@
   <copyfile src="core/root.mk" dest="Makefile" />
  </project>
  
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="platform/development" />
-  <project path="device/common" name="device/common" />
+  <project path="cts" name="platform-cts" />
+  <project path="dalvik" name="platform-dalvik" />
+  <project path="development" name="platform-development" />
+  <project path="device/common" name="device-common" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/htc/common" name="device/htc/common" />
