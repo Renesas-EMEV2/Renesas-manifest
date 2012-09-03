@@ -15,7 +15,7 @@
     remote="github"
     revision="MyPad" />
 
- <project path="hardware/renesas/emev" 
+ <project path="hardware/renesas/emxx" 
     name="Renesas-EMEV2/Renesas-hardware_emev.git"
     remote="github"
     revision="MyPad" />
