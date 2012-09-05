@@ -12,11 +12,12 @@
            sync-j="4" />
 
   <project path="device/renesas/emev"
-    name="Renesas-device_emev.git"
+    name="Renesas-EMEV2/Renesas-device_emev.git"
     remote="github"
     revision="emev-4.1" />
+
   <project path="bionic"
-    name="Renesas-bionic.git"
+    name="Renesas-EMEV2/Renesas-bionic.git"
     remote="github"
     revision="emev-4.1" />
 
