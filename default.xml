@@ -14,13 +14,16 @@
   <project path="device/renesas/emev"
     name="Renesas-device_emev.git"
     remote="github"
-    revision="MyPad" />
+    revision="emev-4.1" />
+  <project path="bionic"
+    name="Renesas-bionic.git"
+    remote="github"
+    revision="emev-4.1" />
 
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
