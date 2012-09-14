@@ -19,6 +19,10 @@
     name="Renesas-bionic.git"
     remote="github"
     revision="emev-4.1" />
+  <project path="system/netd"
+    name="Renesas-system_netd.git"
+    remote="github"
+    revision="emev-4.1" />    
 
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -312,7 +316,6 @@
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
 
