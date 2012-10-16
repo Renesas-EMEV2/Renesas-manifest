@@ -20,8 +20,29 @@
     name="Renesas-EMEV2/Renesas-bionic.git"
     remote="github"
     revision="emev-4.1" />
+
   <project path="system/netd"
     name="Renesas-system_netd.git"
+    remote="github"
+    revision="emev-4.1" />    
+
+  <project path="hardware/libhardware_legacy"
+    name="Renesas-libhardware_legacy.git"
+    remote="github"
+    revision="emev-4.1" />    
+
+  <project path="external/dhcpcd"
+    name="Renesas-external_dhcpcd.git"
+    remote="github"
+    revision="emev-4.1" />    
+
+  <project path="external/wpa_supplicant_6" 
+    name="Renesas-external_wpa_supplicant_6.git"
+    remote="github"
+    revision="emev-4.1" />    
+
+  <project path="external/wpa_supplicant_8"     
+    name="Renesas-external_wpa_supplicant_8.git"
     remote="github"
     revision="emev-4.1" />    
 
@@ -77,7 +98,6 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
@@ -192,8 +212,6 @@
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
@@ -221,7 +239,6 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
