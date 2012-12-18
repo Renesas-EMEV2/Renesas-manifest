@@ -19,13 +19,8 @@
     name="Renesas-EMEV2/Renesas-hardware_emev.git"
     remote="github"
     revision="MyPad" />
-    
- <project path="hardware/libhardware" 
-    name="Renesas-EMEV2/Renesas-hardware_libhardware.git"
-    remote="github"
-    revision="MyPad" />
 
-<project path="hardware/libhardware" 
+<project path="hardware/libhardware_legacy" 
     name="Renesas-EMEV2/Renesas-libhardware_legacy.git"
     remote="github"
     revision="MyPad" />
@@ -158,6 +153,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
