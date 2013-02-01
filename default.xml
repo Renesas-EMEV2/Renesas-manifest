@@ -26,6 +26,11 @@
     remote="github"
     revision="emev-4.1" />    
 
+  <project path="system/vold"
+    name="Renesas-EMEV2/Renesas-system_vold.git"
+    remote="github"
+    revision="emev-4.1" />   
+    
   <project path="hardware/libhardware_legacy"
     name="Renesas-EMEV2/Renesas-libhardware_legacy.git"
     remote="github"
@@ -339,6 +344,5 @@
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="platform/system/vold" />
 
 </manifest>
