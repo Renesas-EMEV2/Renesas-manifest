@@ -61,6 +61,11 @@
     remote="github"
     revision="emev-4.1" />  
 
+  <project path="frameworks/av" 
+	name="Renesas-EMEV2/frameworks_av.git"
+    remote="github"
+    revision="emev-4.1" />  
+
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -231,7 +236,6 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="platform/frameworks/av" />
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
