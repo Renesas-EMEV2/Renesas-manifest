@@ -66,6 +66,11 @@
     remote="github"
     revision="emev-4.1" />  
 
+  <project path="external/bluetooth/bluez" 
+       name="Renesas-EMEV2/platform_bluez.git" 
+    remote="github"
+    revision="emev-4.1" /> 
+
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -104,7 +109,6 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
