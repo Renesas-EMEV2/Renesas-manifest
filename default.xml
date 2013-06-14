@@ -66,6 +66,11 @@
     remote="github"
     revision="emev-4.1" />  
 
+  <project path="frameworks/base" 
+       name="Renesas-EMEV2/frameworks_base.git" 
+    remote="github"
+    revision="emev-4.1" /> 
+
   <project path="external/bluetooth/bluez" 
        name="Renesas-EMEV2/platform_bluez.git" 
     remote="github"
@@ -240,7 +245,6 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
